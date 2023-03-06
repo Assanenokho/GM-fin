@@ -7,19 +7,34 @@
   
   /* Global styles */
   body {
+    background-color: rgb(255, 145, 0);
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
   }
   
+  #like-button {
+    background-color: rgb(250, 17, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #like-count {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+
   header {
-    background-color: #afa1a1;
+    background-color: #f5b400;
     padding: 2rem;
   }
   
   nav ul {
-    
     list-style: none;
     margin: 10px;
     padding: 5px;
@@ -28,7 +43,7 @@
   nav li {
     float: right;
     font-size: 20px;
-    display: inline-block;
+    display: inline;
     margin-right: 1rem;
   }
   
@@ -61,10 +76,27 @@
     margin-bottom: 1rem;
   }
   
+  img {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  .resizeimg:hover{
+    width: 300px;
+    height: 300px;
+  }
+
+  .main{
+    display: flex;
+    
+  }
+
   footer{
     text-align: center;
     color: blue;
-    background-color: black;
-
+    background-color: rgb(211, 124, 26);
   }
   
